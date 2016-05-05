@@ -1,8 +1,6 @@
-FROM alpine:latest
+FROM nginx
 
 MAINTAINER hilongjw <hilongjw@gmail.com> 
-
-RUN apk --update add nginx
 
 COPY . /usr/share/nginx/html
 
